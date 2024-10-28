@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223,234,251);
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+.pajaro img{
+    position: absolute;
+
+    width: 400px;
+    height: 400px;
+    top: 331px;
+    left: -50px;
+}
+
+.contenedor aside {
+    width: 20%;
+    height: 117%;
+    background-color: rgb(86,82,172);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: -28px;
+}
+
+aside nav ul {
+    list-style: none;
+    width: 163%;
+    padding: 0;
+
+}
+aside nav ul li {
+    margin: 10px 0;
+    position: relative; 
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+    position: relative; 
+}
+
+.esq-aside, .esq-sup, .esq-aside-inf, .esq-sup-inf {
+    width: 25px;
+    height: 25px;
+    background-color: white; 
+    position: absolute;
+    right: 34px; 
+    opacity: 0; 
+}
+
+.esq-aside {
+    bottom: 49px;
+    border-bottom-right-radius: 40px; 
+    z-index: 999;
+    background-color: rgb(86,82,172);
+}
+
+.esq-sup {
+    bottom: 49px;
+    background-color: rgb(223,234,251);
+}
+
+.esq-aside-inf {
+    top: 49px;
+    border-top-right-radius: 40px;
+    z-index: 999;
+    background-color: rgb(86,82,172);
+}
+
+.esq-sup-inf {
+    top: 49px;
+    background-color: rgb(223,234,251); 
+}
+
+
+aside nav ul li a:hover .esq-aside,
+aside nav ul li a:hover .esq-sup,
+aside nav ul li a:hover .esq-aside-inf,
+aside nav ul li a:hover .esq-sup-inf {
+    opacity: 1; 
+}
+
+aside nav ul li a:hover {
+    background-color: rgb(223,234,251);
+    color: rgb(86,82,172);
+}
+.derecha {
+    width: 80%;
+    background: rgb(223,234,251);
+    height: 100vh;
+}
+.headerrr{
+    width: 100%;
+    padding-left: 0%;
+}
+header {
+    background-color: white;
+    width: 96.5%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    position: relative;
+    left: 20px;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.perfil-container {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.usuario {
+    position: relative;
+    grid-column: 1 / 2;
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 20px;
+    height: 38vh;
+    
+}
+.usuario img{
+    
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+}
+.usuarioDatos{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 20px;
+
+}
+.usuarioDatos h2{
+    padding-bottom: 10px;
+}
+.usuarioDatos p{
+    padding-bottom: 8px;
+}
+.foto-perfil {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.redes-sociales a{
+    padding-left: 3px;
+        
+    color: white;
+}
+
+.redes-sociales{
+    display: flex;
+    padding-left: 0px;
+    
+    
+}
+.redes_logos{
+    position: relative;
+    top: 3px;
+}
+
+.red{
+    margin-right: 30px;
+    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+    background: rgb(86,82,172);
+    text-align: center;
+    border-radius: 50%;
+}
+.cursos {
+    grid-column: 1 / 2;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 60vh;
+    z-index: 999;
+    position: relative;
+}
+
+.cursos h3{
+    margin-bottom: 20px;
+}
+.cursos img{
+    height: 260px;
+    position: absolute;
+    bottom:55px;
+    left: 40px;
+}
+.lado-derecha {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pagos {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 38vh;
+    
+}
+.pagos > * {
+    margin-bottom: 15px;
+}
+.logos_pago img {
+    width: 50px;
+    margin-right: 10px;
+}
+.logos_pago{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.wester, .play, .master, .visa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    
+}
+.logos_pago div img {
+    max-width: 100%;
+    height: 40px;
+    object-fit: contain;
+}
+.logos_pago div:hover {
+    background-color: #e0e0e0;
+}
+.suscripciones {
+    background-color: #6D5BAA;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    height: 60vh;
+
+}
+
+.suscripciones ul {
+    display: flex;
+    padding-left: 0;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.suscripciones ul li{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.suscripciones button {
+    background-color: white;
+    color: #6D5BAA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 25%;
+}
+.cursosContenedores{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.primero, .segundo, .tercero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 13vh;
+    padding-left: 20px;  
+    border-radius: 15px; 
+}
+.primero{
+    background: rgb(235,235,255);
+}
+.segundo{
+    background: rgb(248,233,255);
+}
+.tercero{
+    background: rgb(255,234,242);
+}

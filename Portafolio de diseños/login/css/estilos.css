@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(235,226,247);
+}
+
+.contenedor{
+    margin: 5%;
+    background-color: rgb(247,247,247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.izquierda{
+    background: radial-gradient(circle at 30% 50%,#72c29f, transparent ),radial-gradient(circle at 70% 40%, #d962f7, transparent 50%),radial-gradient(circle at 60% 80%,#718ff0, transparent 60%);
+    border-radius: 10%;
+    width: 50%;
+    padding: 20px;
+    height: 80vh;
+    position: relative;
+    left: 20px;
+}
+.izquierda h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color:rgb(44,42,126);
+}
+.parrafo {
+    position: relative;
+    left: 25px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icono {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+.texto{
+    position: relative;
+}
+.texto h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.texto p {
+    font-size: 14px;
+    color: white;
+}
+.imag1 img{
+    position: absolute;
+    right: 101%;
+    bottom: 10px;
+}
+.imag2 img{
+    position: absolute;
+    right: 100%;
+    bottom: 30px;
+}
+.logo h3{
+    padding-left: 50px;
+    margin-top: 130px;
+    color: rgb(44,42,126);
+}
+.imag3 img{
+    position: absolute;
+    right: 90%;
+    bottom: 5px;
+}
+.derecha {
+    width: 40%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 60px;
+}
+
+.formulario h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.formulario p {
+    margin-bottom: 20px;
+    color: rgb(110, 107, 133);
+    text-align: center;   
+}
+.formulario a{
+    text-decoration: none;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    font-size: 16px;
+}
+form button {
+    background-color: rgb(45,195,105);
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(36, 168, 62);
+}
+.terminos p{
+    position: absolute;
+    right: 1px;
+    top: 71%;
+    
+    font-size: 13px;
+}
+
+.redes_logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.redes_logos button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(105, 105, 105);
+}
+.google img{
+    position: relative;
+    right: 15px;    
+}
+.google{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+.github img{
+    position: relative;
+    right: 15px;    
+}
+.github{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}

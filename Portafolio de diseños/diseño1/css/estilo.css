@@ -1,0 +1,268 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+    z-index: 999;
+    background: linear-gradient(45deg, rgb(244,56,66), rgb(195, 25, 126), rgb(244,56,66));
+	position: fixed;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 0;
+    padding-left: 10%;
+}
+nav{
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    padding-left:25%;
+}
+nav li{
+	display: inline-block;
+	padding: 10px;
+}
+nav li a{
+	text-decoration: none;
+	color:white;
+	padding: 5px;
+	border-radius: 10px;
+}
+nav li a:hover{ 
+	background-color: rgb(103, 99, 209);
+	color:white;
+	transition: all 300ms;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.seccion1 {
+    
+    background: linear-gradient(to right, rgb(244,56,66), rgb(195, 25, 126), rgb(244,56,66));
+    color: white;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.contenedor_texto{
+    width: 40%;
+    text-align: left;
+    padding-left: 10%;
+}
+.contenedor_texto h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#boton1{
+    margin-top: 15px;
+    padding-top: 8px;
+    width: 150px;
+    height: 6vh;
+    background-color: #00d0ff00;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    
+}
+#boton1 a{
+	text-decoration: none;
+	color:white;
+	padding: 5px;
+	border-radius: 10px;
+}
+#boton1 a:hover{
+	background-color: rgb(247, 0, 255);
+	color:white;
+	transition: all 300ms;
+}
+
+.imagenNote{
+    width: 50%;
+    text-align: left;
+    padding-left: 10%;
+}
+.medio {
+    background:white;
+    color: black;
+    padding: 80px 0;
+
+    text-align: center;
+}
+.linea{
+    width: 50px; 
+    height: 3px;
+    background: linear-gradient(45deg, rgb(244,56,66), rgb(195, 25, 126), rgb(244,56,66));
+    margin: 5px auto; 
+}
+.linea2{
+    width: 30%; 
+    height: 3px;
+    margin: 5px auto; 
+    padding-bottom: 10px;
+}
+.abajo h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.mediobajo{
+    background:white;
+    color: black;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.celular{
+    width: 20%;
+}
+.celular p{
+    padding-top: 10px;
+    text-align: left;
+}
+.icon1{
+    width: 20%;
+}
+.icon1 p{
+    padding-top: 10px;
+
+    text-align: left;
+}
+.icon2{
+    width: 20%;
+}
+.icon2 p{
+    padding-top: 10px;
+
+    text-align: left;
+}
+.medio h2{
+    font-size: 40px;
+}
+.iconoArriba{
+    color: rgb(216,41,96);
+}
+.abajo {
+    position: relative;
+    background: rgb(237, 238, 241);
+    color: black;
+    padding: 80px 0;
+    text-align: center;
+
+}
+.abajo h3{
+    padding-left: 30%;
+    text-align: left;
+}
+.abajo p{
+    text-align: center;
+}
+
+.abajo_sub {
+    position: relative;
+
+    width: 100%;
+    color: black;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    text-align: center;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+.detail-item {
+    position: relative;
+    flex: 0 0 35%; 
+    margin-bottom: 20px; 
+    padding: 20px;
+    padding-left: 0%;
+}
+.detail-item h3 {
+    justify-content: space-between; 
+    align-items: center;
+    text-align: right;
+    padding-right: 15%;
+}
+.detail-item svg {
+    z-index: 0;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color:  rgb(216,41,96);
+    border-radius: 7px;
+    top: 0;
+    right: 6%;
+}
+.abajo_sub img {
+    position: absolute;
+
+    top: 0%;
+    left: 19.5%;
+}
+.detail-item1 {
+    padding: 30px;
+    position: relative;
+    flex: 0 0 35%; 
+    margin-bottom: 20px; 
+    padding: 20px;
+    padding-left: 0%;
+}
+.detail-item1 h3 {
+    justify-content: space-between; 
+    align-items: center;
+    padding-left: 15%;
+    
+}
+.detail-item1 svg {
+    z-index: 0;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color:  rgb(216,41,96);
+    border-radius: 7px;
+    top: 0%;
+    right: 88.5%;
+}
+.icono01{
+    color: white;
+}
+.derecha p{
+    text-align: left;
+}
+.izquierda p{
+    text-align: right;
+}
+.detail-item  :hover{
+
+        background-color: gray;
+        color: #1717FF;
+        cursor: pointer;
+        border-radius: 10px;
+
+    
+}
+.detail-item1  :hover{
+    
+    background-color: gray;
+    color: #1717FF;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
